@@ -1,2 +1,2 @@
-# HabitPayInsights
-HabitPay Insights | Decisões melhores, resultados maiores
+# HabitPAY Insights
+HabitPAY Insights | Decisões melhores, resultados maiores
