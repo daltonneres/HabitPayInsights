@@ -120,3 +120,151 @@ body {
     transform: translateY(0);
   }
 }
+
+/* PLANOS */
+
+.plans {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.plans-title {
+  font-family: var(--fd);
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.plans-desc {
+  color: var(--mu);
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 25px;
+  max-width: 500px;
+  margin-inline: auto;
+}
+
+/* GRID */
+
+.plans-grid {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* CARD */
+
+.plan-card {
+  background: rgba(255,255,255,0.02);
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 10px;
+  padding: 18px;
+  width: 100%;
+  max-width: 220px;
+  transition: 0.25s;
+}
+
+/* HOVER */
+
+.plan-card:hover {
+  transform: translateY(-3px);
+  border-color: rgba(34, 197, 94, 0.4);
+  box-shadow: var(--sh3);
+}
+
+/* DESTAQUE */
+
+.plan-card.destaque {
+  border: 1px solid var(--g);
+  background: rgba(34, 197, 94, 0.04);
+}
+
+/* TITULO */
+
+.plan-card h4 {
+  font-family: var(--fd);
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+/* PREÇO */
+
+.price {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--g);
+  margin-bottom: 6px;
+}
+
+/* TEXTO */
+
+.plan-card p {
+  font-size: 13px;
+  color: var(--mu);
+  line-height: 1.4;
+}
+
+/* NOTA */
+
+.plans-note {
+  margin-top: 20px;
+  font-size: 12px;
+  color: var(--mu);
+  max-width: 480px;
+  margin-inline: auto;
+}
+
+/* RESPONSIVO */
+
+@media (max-width: 768px) {
+  .plans-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .plan-card {
+    max-width: 100%;
+  }
+}
+
+/* FOOTER */
+
+.footer {
+  margin-top: 60px;
+  padding: 25px 15px;
+  background: rgba(255,255,255,0.02);
+  border-top: 1px solid rgba(255,255,255,0.06);
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* LOGO */
+
+.footer-logo {
+  font-family: var(--fd);
+  font-size: 16px;
+  color: var(--g);
+  margin-bottom: 6px;
+}
+
+/* DESCRIÇÃO */
+
+.footer-desc {
+  font-size: 12.5px;
+  color: var(--mu);
+  margin-bottom: 12px;
+  line-height: 1.4;
+}
+
+/* COPYRIGHT */
+
+.footer-copy {
+  font-size: 11px;
+  color: var(--mu);
+  opacity: 0.7;
+  line-height: 1.5;
+}
